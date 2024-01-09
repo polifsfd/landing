@@ -1,0 +1,29 @@
+.card-container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.card-container h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-it {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 10px;
+  box-shadow: 0px 0px 10px #00000054;
+}
+
+.card-how img, .card-it img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
